@@ -63,6 +63,11 @@ body {
     justify-content: flex-start;
     height: 200px;
     font-size: 16px;
+    
+}
+
+.main_left p {
+    color:#E5E7EB;
 }
 
 .main_left h1 {
@@ -91,3 +96,16 @@ body {
     height:50px;
 }
 
+.main_info {
+    background-color:white;
+    
+}
+
+.main_info h3 {
+    color: black;
+}
+
+.main_info p {
+    color: black;
+    font-size:12px;
+}
