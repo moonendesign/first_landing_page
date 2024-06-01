@@ -21,7 +21,7 @@ body {
 }
 .container {
     margin:0 auto;
-    width:80vw;
+    width:1500px;
     
 }
 
@@ -159,4 +159,37 @@ body {
     color:#1F2937;
     font-weight: bold;
     font-size:16px;
+}
+
+.sign_up {
+    background-color: white;
+    padding:75px 150px;
+    
+}
+
+.call_to_action {
+    display:flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    margin:0 auto;
+    width:1000px;
+    padding:35px 0;
+    border-radius: 5px;
+}
+
+.call_left p {
+    font-size: 12px;
+}
+
+.call_right {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.call_right button {
+    border:1px solid white;
+    background-color: #3882F6;
+    padding:0 25px;
+    border-radius: 5px;
+    font-weight: bold;
 }
