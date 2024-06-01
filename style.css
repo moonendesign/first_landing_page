@@ -98,14 +98,42 @@ body {
 
 .main_info {
     background-color:white;
-    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main_info h3 {
-    color: black;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    margin:30px;
 }
 
 .main_info p {
     color: black;
     font-size:12px;
+    
+}
+
+.border_image {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width:100px;
+    height:100px;
+    margin-bottom:5px;
+}
+
+.tiles {
+    display:flex;
+    justify-content: center;
+    width:500px;
+    gap:15px;
+    margin-bottom: 100px;
+}
+
+.tile {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
 }
