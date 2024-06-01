@@ -137,3 +137,26 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
+.cust_quote {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 28px;
+    font-style: italic;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:75px 400px ;
+}
+
+.cust_quote p {
+    color:#1F2937;
+}
+
+.name {
+    display:flex;
+    justify-content: flex-end;
+    color:#1F2937;
+    font-weight: bold;
+    font-size:16px;
+}
